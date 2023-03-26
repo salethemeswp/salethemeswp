@@ -17,12 +17,16 @@ body {background: #000000; font-size: 14px;}
 .horizontal-line {background: #63b2bd; margin-top: 0.5rem; margin-bottom: 0.5rem; padding-left: 0.25rem; padding-right: 0.25rem; color: #000000;}
 .fs-16 {font-size: 16px;}
 .w80px {width: 80px;}
-.w200px {width: 200px;}
+.w-md-200px {width: 200px;}
 .vertical-align-top {vertical-align: top;}
 table td {padding: 3px 5px;}
 
-/*about me*/
+/* about me */
 .about-info a, .about-info {color: #fff;}
 .about-info .img-about-avatar {width: 150px; height: 150px; border-radius: 50%; margin: 0 auto; background-repeat: no-repeat; background-size: cover;}
 .about-info ul {padding-inline-start: 1rem;}
 .title-info {color: #ff7200; font-size: 22px; font-weight: bold;}
+
+@media screen and (max-width: 992px) {
+  .w-md-200px {width: 100px;}
+}
